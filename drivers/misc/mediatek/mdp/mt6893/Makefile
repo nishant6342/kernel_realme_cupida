@@ -29,9 +29,6 @@ endif
 # Enable MET
 ccflags-y += -DMET_USER_EVENT_SUPPORT
 
-# Enable AEE
-ccflags-y += -DCMDQ_AEE_READY
-
 # secure path
 ifeq ($(or $(strip $(CONFIG_TRUSTONIC_TEE_SUPPORT)), $(strip $(CONFIG_MICROTRUST_TEE_SUPPORT)), \
 	$(strip $(CONFIG_MTK_ENABLE_GENIEZONE))),y)
