@@ -132,3 +132,14 @@ all.config
 
 # Kdevelop4
 *.kdev4
+
+# Kernel Build
+/out/
+/clang/
+/gcc32/
+/gcc64/
+/AnyKernel/
+/modules/
+/assembler/
+log.txt
+build.sh
