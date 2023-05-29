@@ -1154,7 +1154,7 @@ struct eth_dev *gether_setup_name(struct usb_gadget *g,
 			"using random %s ethernet address\n", "self");
 
 	ether_addr_copy(dev->host_mac, a);
-	pr_debug("%s, tjrndis1: %x:%x:%x:%x:%x:%x\n", __func__,
+	pr_debug("%s, rndis: %x:%x:%x:%x:%x:%x\n", __func__,
 		   dev->host_mac[0], dev->host_mac[1],
 		   dev->host_mac[2], dev->host_mac[3],
 		   dev->host_mac[4], dev->host_mac[5]);
