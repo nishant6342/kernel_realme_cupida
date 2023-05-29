@@ -788,15 +788,7 @@ static struct scp *init_scp(struct platform_device *pdev,
 {
 	struct genpd_onecell_data *pd_data;
 	struct resource *res;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	int i, j, count;
-=======
-	int i, j, ret;
->>>>>>> 7e6ca0ed15faa9d34e740f55a6220b61d47317ef
-=======
-	int i, j;
->>>>>>> 3673b5af54815c1b94709c9b295de7bb28dfc1fa
+	int i, j, count, ret;
 	struct scp *scp;
 	struct clk *clk[CLK_MAX];
 
